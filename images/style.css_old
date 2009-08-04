@@ -1,0 +1,300 @@
+/* House DNA */
+
+   
+/* default styles
+   -------------- */
+   
+body { 
+	padding: 0; 
+	margin: 0; 
+	font: 0.7em Tahoma, sans-serif; 
+	line-height: 1.5em;
+	background: #fff; 
+	color: #454545;
+	}
+
+a {	color: #E0691A;	background: inherit;}
+a:hover { color: #6C757A; background: inherit;}
+
+h1 { font: normal 2.1em Arial, Sans-Serif; letter-spacing: -1px; padding: 7px 0 0 8px; margin: 0; }
+.dark  { color: #737373; background: inherit; font-weight: bold; }
+h1 a, h2 a { text-decoration: none; }
+h1 a:hover, h2 a:hover { color: #FF6600; background: inherit; }
+h2 { margin: 0; padding: 0; font: bold 1.7em Arial, Sans-Serif; letter-spacing: -1px; }
+h2 { font-size: 1.5em; margin-bottom: 5px; color: #000; background: inherit; }
+
+p {	margin: 0 0 5px 0; }
+
+ul { margin: 0; padding : 0; list-style : none; }
+
+form { 	margin: 0; }
+
+
+/* layout
+   ------ */
+
+.content { 
+	margin: 0 auto;
+	width: 880px;
+	padding: 10px; 
+}
+
+.header { 
+	height: 61px;
+	width: 880;
+	color: #808080;
+	margin: 0 0;
+	padding: 0 0 0 0;
+	
+}
+
+.top_info {
+	height: 61px;
+	float: right;
+	width: 616px;
+	background:url(top_bar.gif) no-repeat;
+	color: #66686A;
+}
+
+	
+
+	.top_info_right {
+		float: right;
+		width: 310px;
+		
+	}
+
+
+
+/* left side
+   --------- */
+
+.left {
+	float: left;
+	width: 220px;
+	margin: 0 5px 5px 0;
+	
+}
+.left_up {
+	float: left;
+	width: 220px;
+	margin: 0 5px 10px 0;
+	background:url(leftbg1.gif) no-repeat;
+}
+.left_below {
+	float: left;
+	width: 220px;
+	margin: 0 5px 10px 0;
+	background:url(leftbg2.gif) no-repeat;
+}
+
+
+/* right side*/
+.right {
+	float: right;
+	width: 650px;
+	margin: 0 0 0 0;
+}
+
+
+
+/*search bar*/
+.bar1 {
+	background:url(bgbar1.gif) no-repeat;
+	color: #808080;
+	width:650px;
+	height:58px;
+	font-weight: bold;
+	padding: 1px 1px 1px 1px;
+	margin: 5px 0;
+	
+}
+
+.bar {
+	color: #808080;
+	width:650px;
+	height:30px;
+	font-weight: bold;
+	padding: 1px 1px 1px 1px;
+	margin: 5px 0;
+	
+}
+
+
+
+	
+/*left of right side*/
+.right_left {
+	float: left;
+	width: 390px;
+	margin: 0  0 0 0;
+	
+}
+
+.right_left h3 
+{
+	width: 390px;
+	height:45px;
+	color: #555555;
+	font-style:normal; font-variant:normal; font-weight:bolder; font-size:1em; font-family:Tahoma, Arial, Sans-Serif; padding-left:5px; padding-right:0; padding-top:5px; padding-bottom:2px
+}
+
+
+	
+	.right_left_box { margin: 0px 0 0px 0; color: #000; background:url(centerbg.gif) repeat-y; padding: 0 0; }
+	
+	.right_left_box_scroll {
+		
+		color: #000;
+		background: #FFF;
+		padding: 3px 0;
+		scrollbar-arrow-color:#414141;
+		scrollbar-face-color:#A0C1D3;
+		scrollbar-highlight-color:#A0C1D3;
+		scrollbar-3dlight-color:#A0C1D3;
+		scrollbar-darkshadow-color:#414141;
+		scrollbar-shadow-color:#A0C1D3;
+		scrollbar-track-color:#414141;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		height:80px;
+		
+		}
+		
+/* right of right side
+   ---------- */
+		
+.right_right {
+	float: right;
+	width: 245px;
+	height:600px;
+	margin: 0 0 0 0;
+	
+}
+
+.right_right_up {
+	float: right;
+	width: 245px;
+	height:51px;
+	margin: 0 0 0 0px;
+	background:url(rightbg1.gif);
+}
+
+
+
+	.right_right_below {
+		background:url(rightbg2.gif) repeat-y;
+		color: #414141;
+		margin: 0 0 0 0;
+		scrollbar-arrow-color:#414141;
+		scrollbar-face-color:#A0C1D3;
+		scrollbar-highlight-color:#A0C1D3;
+		scrollbar-3dlight-color:#A0C1D3;
+		scrollbar-darkshadow-color:#414141;
+		scrollbar-shadow-color:#A0C1D3;
+		scrollbar-track-color:#414141;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		height:550px;
+	}
+	
+.image {
+	float: left;
+	margin: 0 0px 3px 0;
+	padding:5px;
+	
+}
+
+/* footer
+   ------ */
+
+.footer { 
+	clear: both;
+	width: 100%;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	margin: 0;
+	border-top: 1px solid #ccc;
+	line-height: 1.8em;
+}
+
+.footer a { color: #808080; background: #fff; }
+
+/*---------XchangeDetailsLodging-------*/
+
+/*---------header-------*/
+
+.top_info_right_Xchange {
+		float: right;
+		width: 200px;
+		padding: 0 0 0 35px;
+		border-left: 1px solid #eee;
+	}
+
+/* left side XchangeDetailsLodging --------- */
+
+
+
+
+.left_Xchange {
+	float: left;
+	width: 390px;
+	margin: 0  0 0 0;
+	
+}
+
+	.left_box_Xchange {
+		 margin: 0px 0 0px 0;
+		 color: #000;
+		 background:url(centerbg.gif) repeat-y;
+		 border-style:solid; border-width:thin; padding: 3;
+		 border-color: #CEE4F0;
+		 padding: 0 0; }
+	
+	.left_box_scroll_Xchange {
+	
+		color: #000;
+		background: #FFF;
+		padding: 3px 0;
+		border-style:solid; border-width:thin; padding: 3;
+		border-color: #CEE4F0;
+		scrollbar-arrow-color:#414141;
+		scrollbar-face-color:#A0C1D3;
+		scrollbar-highlight-color:#A0C1D3;
+		scrollbar-3dlight-color:#A0C1D3;
+		scrollbar-darkshadow-color:#414141;
+		scrollbar-shadow-color:#A0C1D3;
+		scrollbar-track-color:#414141;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		height:80px;
+		
+		
+		}
+		
+/* right side XchangeDetailsLodging --------- */		
+.right_Xchange {
+	float: right;
+	width: 480px;
+	margin: 0 5px 0 5px;
+	
+}
+
+.right_Xchange_box {
+		background: #CEE4F0;
+		border-color: #E5AC5A;
+		border-style:solid; border-width:thin; padding: 3;
+		color: #414141;
+		margin: 0 0 7px 0;
+	}
+
+.right_Xchange_box_1 {
+		background: #F9CF91;
+		border-color: #CEE4F0;
+		border-style:solid; border-width:thin; padding: 3;
+		color: #414141;
+		margin: 0 0 7px 0;
+	}
+
+
+	
